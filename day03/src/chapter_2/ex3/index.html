@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link
+			href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+			rel="stylesheet"
+		/>
+		<title>Calculator</title>
+	</head>
+	<body class="bg-light">
+		<header class="bg-info p-3">
+			<div class="container">
+				<h1 class="text-white text-center">Calculator App</h1>
+				<nav class="d-flex justify-content-between">
+					<a href="../ex3/index.html" class="text-white">Calculator</a>
+					<a href="student-info.html" class="text-white">Student Info</a>
+				</nav>
+			</div>
+		</header>
+		<div class="d-flex align-items-center justify-content-center vh-100">
+			<div class="bg-info p-4 rounded">
+				<h1 class="text-white text-center mb-3">Calculator</h1>
+				<div class="d-flex mb-3">
+					<div id="result" class="flex-grow-1 bg-white rounded p-3 mb-0">0</div>
+					<button class="btn btn-danger ml-2 clear">C</button>
+				</div>
+				<div
+					class="calc-buttons"
+					style="
+						display: grid;
+						grid-template-columns: repeat(4, 1fr);
+						gap: 10px;
+					"
+				>
+					<button class="btn btn-light">1</button>
+					<button class="btn btn-light">2</button>
+					<button class="btn btn-light">3</button>
+					<button class="btn btn-light">+</button>
+					<button class="btn btn-light">4</button>
+					<button class="btn btn-light">5</button>
+					<button class="btn btn-light">6</button>
+					<button class="btn btn-light">-</button>
+					<button class="btn btn-light">7</button>
+					<button class="btn btn-light">8</button>
+					<button class="btn btn-light">9</button>
+					<button class="btn btn-light">*</button>
+					<button class="btn btn-light">/</button>
+					<button class="btn btn-light">0</button>
+					<button class="btn btn-light">.</button>
+					<button class="btn btn-light">=</button>
+				</div>
+			</div>
+		</div>
+		<script src="script.js"></script>
+	</body>
+</html>
